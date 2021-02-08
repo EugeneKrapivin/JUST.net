@@ -27,6 +27,17 @@ namespace JUST.UnitTests
         }
 
         [Test]
+        public void LastIndexOfEndOfString()
+        {
+            var text = "{\"test\":\"node\"}";
+            var transformer = "{ \"eof\": \"#lastindexof(#valueof($.test),)\" }";
+
+            var result = new JsonTransformer().Transform(transformer, text);
+
+            Assert.AreEqual("{\"eof\":4}", result);
+        }
+
+        [Test]
         public void Substring()
         {
             var transformer = "{ \"stringresult\": { \"substring\": \"#substring(#valueof($.stringref),8,10)\" }}";

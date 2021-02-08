@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JUST.net", "JUST.net\JUST.net.csproj", "{C33053BC-A3F2-4F0A-9B7F-B0AF5AD4EFFB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternalMethods", "ExternalMethods\ExternalMethods.csproj", "{15F60FAC-38CF-4AA7-B369-E738702AA94E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JUST.net.UnitTests", "UnitTests\JUST.net.UnitTests.csproj", "{EEA26C5F-B8F8-40F3-8405-8887D1F712D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{095860A6-5A93-439E-BC3D-88B2B0B9B2A5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
